@@ -18,15 +18,15 @@ text-transform: uppercase;
 /*The following three rules should use ID selectors*/
 
 /*You will need to give these ID selectors names, and place the ids into the correct places in the HTML. Use the screenshot to determine what tag these IDs need to be placed on (see page 183 for more information about ID attributes). */
-#colorpurple {
+#production {
 color: purple;
 }
 
 /*This will change the Harvesting text color*/
-#colorred {
+#harvesting {
 color: red;
 }
-#colorbrown {
+#bottling {
 color: brown;
 }
 
@@ -57,7 +57,7 @@ color: green;
 /*The following three rules should use more advanced selectors. The exact selector type is outlined below.*/
 
 /*Use a Child selector for the following (see page 238 for more information about Child Selectors). This rule will change the links text color.*/
-li a{
+li>a{
 color: red;
 }
 
