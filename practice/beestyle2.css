@@ -12,6 +12,8 @@ body{
 
   /* Set the default font size for the body text below this comment. Reference the screenshot to know what size to make this text. Use "em" for font size. */
   font-size: .8em;
+  width: 80%;
+  margin: 0 auto;
 
 
 
@@ -78,14 +80,11 @@ header nav ul {
   /* Write a declaration (property: value;) below this comment to change the background color of this <ul> using a hex color. You will need to use Photoshop to eyedrop this color from the screenshot. */
 
   background-color: #f2cc10;
-
-  list-style-position: inside;
-
+  list-style-type: none;
   width: 20px;
-
   height: 200px;
-
   padding-top: 45px;
+  border: 2px solid rgba(135,117,45,.8);
 
 }
 
@@ -94,16 +93,11 @@ header nav li{
   /* Write a declaration (property: value;) below this comment to change the background color of the <li>s using an rgba color. You will need to use Photoshop to eyedrop this color from the screenshot. This might not be exactly the same color since there is an opacity. */
 
   background-color: rgba(135,117,45,.8);
-
   width: 220px;
-
   padding: 6px;
-
-  padding-left: 30px;
-
   margin-bottom: 7px;
-
   margin-left: -8px;
+  box-shadow: 3px 3px black;
 
 }
 
@@ -126,6 +120,15 @@ header nav li a:hover { color: #f2cc10; }
 
 header nav li a:active { color: #ffffff; }
 
+footer nav li a { text-decoration: underline; }
+
+footer nav li a:link { color: #f8ffb0; }
+
+footer nav li a:visited { color: #f8ffb0; }
+
+footer nav li a:hover { color: #f2cc10; }
+
+footer nav li a:active { color: #ffffff; }
 
 /*==============MAIN STYLE============*/
 
@@ -143,6 +146,65 @@ section h2{
 
 footer{
   text-align: center;
+  background-color: #928342;
+  padding-top: 1px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 20px;
+  color: #f8ffb0;
 }
 
+footer nav ul {
 
+}
+footer nav ul li {
+  display: inline-block;
+  padding-right: 15px;
+  background-color: #928342;
+}
+
+main {
+  border: 2px solid #928342;
+  padding: 30px;
+  background-color: #f2cc10;
+}
+
+#bees {
+  border: 1px solid #928342;
+  background-color: #fafcca;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#bees h2 {
+  border: 1px solid #928342;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: white;
+  width: 50px;
+  padding: 10px;
+  color: #928342;
+}
+
+#blossoms {
+  border: 1px solid #928342;
+  background-color: #fafcca;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 500px;
+  overflow: scroll;
+}
+
+.blossomh2 {
+  border: 1px solid #928342;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: white;
+  width: 105px;
+  padding: 10px;
+  color: #928342;
+}
