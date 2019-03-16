@@ -23,7 +23,7 @@
 /* These are the font families of all the headings and body copy */
 
 body{
-  font-family: 'Nunito', sans-serif;;
+  font-family: 'Nunito', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6{
   margin: 8px 40px 0px 0px;
 }
 #mainnav a:link{
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 200;
@@ -125,27 +125,27 @@ h1, h2, h3 ,h4, h5, h6{
 
 /* Style for individual headings */
 h1{
-  font-size: 4em;
+  font-size: 6vw;
 }
 
 h2{
-  font-size: 3.5em;
+  font-size: 5vw;
 }
 
 h3{
-  font-size: 3em;
+  font-size: 4vw;
 }
 
 h4{
-  font-size: 2.5em;
+  font-size: 3.5vw;
 }
 
 h5{
-  font-size: 2em;
+  font-size: 3vw;
 }
 
 h6{
-  font-size: 1.5em
+  font-size: 2.5vw;
 }
 
 
