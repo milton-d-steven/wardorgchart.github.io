@@ -131,8 +131,9 @@ article h2 {
   margin: 0 5px 0 5px;
 }
 
-.col1 {
+.col1, .col2 {
   padding-right: 10px;
+  width: 50%;
 }
 
 footer {
