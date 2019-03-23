@@ -145,3 +145,10 @@ footer {
 .clearfix::after {
   overflow: auto;
 }
+
+form {
+  margin: 0 25%;
+}
+form h2 {
+  text-align: center;
+}
